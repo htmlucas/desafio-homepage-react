@@ -1,7 +1,9 @@
+import { GridItem } from "@chakra-ui/react"
+
 export const Footer  = () => {
   return(
-    <div>
+    <GridItem pl='2' bg='orange' area={'footer'}>
       Footer
-    </div>
+    </GridItem>
   )
 }
